@@ -13,14 +13,14 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.cglean.cloudnative.demo.PcfErsDemo1Application;
+import com.cglean.cloudnative.demo.ShowsApplication;
 import com.cglean.cloudnative.demo.server.model.Show;
 import com.cglean.cloudnative.demo.server.repository.ShowRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = PcfErsDemo1Application.class)
+@SpringApplicationConfiguration(classes = ShowsApplication.class)
 @WebAppConfiguration
-public class PcfErsDemo1ApplicationTests {
+public class ShowsApplicationTests {
 
 	@Autowired
 	private ShowRepository showRepository;

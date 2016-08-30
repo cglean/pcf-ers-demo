@@ -18,9 +18,9 @@ import org.springframework.context.annotation.Configuration;
  */
 @SpringBootApplication
 @Configuration
-public class PcfErsDemo1Application {
+public class ShowsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PcfErsDemo1Application.class, args);
+		SpringApplication.run(ShowsApplication.class, args);
 	}
 }
