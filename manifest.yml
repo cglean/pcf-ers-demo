@@ -7,5 +7,5 @@ applications:
   path: target/shows-0.0.1-SNAPSHOT.jar
 #  buildpack: java_buildpack
   services: []
-  env:
+  env: 
     SPRING_PROFILES_ACTIVE: cloud
